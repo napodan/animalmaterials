@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 -- Mob Framework Mod by Sapier
--- 
+--
 -- You may copy, use, modify or do nearly anything except removing this
--- copyright notice. 
+-- copyright notice.
 -- And of course you are NOT allow to pretend you have written it.
 --
 --! @file shallow_waters.lua
@@ -25,8 +25,8 @@ env_shallow_waters = {
 					},
 			surfaces = nil,
 			--ground is first node above/below not beeing of media type
-			max_height_above_ground		= 1,
-			min_height_above_ground     = -10		
+			max_height_above_ground     = 1,
+			min_height_above_ground     = -10
 		}
 --!@}
 
