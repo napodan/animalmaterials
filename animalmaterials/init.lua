@@ -23,8 +23,8 @@ else
   S = function ( s ) return s end
 end
 
-minetest.log("action","MOD: animalmaterials loading ...")
-local version = "0.1.1"
+core.log("action","MOD: animalmaterials loading ...")
+local version = "0.1.2"
 
 
 animalmaterialsdata = {}
@@ -372,5 +372,5 @@ minetest.register_craft({
 	}
 })
 
-minetest.log("action","MOD: animalmaterials mod version " .. version .. " loaded")
+core.log("action","MOD: animalmaterials mod version " .. version .. " loaded")
 

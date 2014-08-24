@@ -1,1 +1,6 @@
-Animals modpack contains some animals that populate world as well as monsters and npc
+Animalmaterials contains resources to be used for mobs and animals
+
+Changes:
+
+0.0.1
+	-initial version

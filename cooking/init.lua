@@ -2,7 +2,8 @@
 --Cooking Support, added by Mr Elmux
 -- You may use modify or do nearly anything except removing this Copyright hint
 -----------------------------------------------------------
-
+local version = "0.1.0"
+core.log("action","Loading cooking (by Mr Elmux) ...")
 minetest.register_craftitem("cooking:meat_cooked", {
 	description = "Cooked Meat",
 	image = "cooking_cooked_meat.png",
@@ -110,3 +111,5 @@ minetest.register_craft({
 	recipe = "animalmaterials:fish_clownfish",
 	output = "cooking:fish_clownfish_cooked",
 })
+
+core.log("action","cooking (by Mr Elmux) version .. " .. version .. " loaded.")
