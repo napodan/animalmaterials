@@ -12,7 +12,7 @@
 -------------------------------------------------------------------------------
 local ar_version = "0.0.1"
 
-core.log("action", "Loading mob_environments mod ...")
+core.log("action", "MOD: Loading mob_environments mod ...")
 
 --!path of mod
 local me_modpath = minetest.get_modpath("mob_environments")
@@ -26,4 +26,4 @@ dofile (me_modpath .. "/shallow_waters.lua")
 dofile (me_modpath .. "/deep_water.lua")
 dofile (me_modpath .. "/simple_air.lua")
 
-core.log("action", "mob_environments mod " .. ar_version .. " loaded.")
+core.log("action", "MOD: mob_environments mod " .. ar_version .. " loaded.")

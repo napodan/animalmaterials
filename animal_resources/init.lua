@@ -12,7 +12,7 @@
 -------------------------------------------------------------------------------
 local ar_version = "0.0.1"
 
-core.log("action", "Loading animal resources mod ...")
+core.log("action", "MOD: loading animal resources mod ...")
 
 --!path of mod
 local ar_modpath = minetest.get_modpath("animal_resources")
@@ -23,4 +23,4 @@ dofile (ar_modpath .. "/weapons.lua")
 ar_init_weapons();
 ar_init_tool_crafts();
 
-core.log("action", "Animal resources mod " .. ar_version .. " loaded.")
+core.log("action", "MOD: animal resources mod " .. ar_version .. " loaded.")
