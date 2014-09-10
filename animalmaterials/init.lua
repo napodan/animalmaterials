@@ -24,7 +24,7 @@ else
 end
 
 core.log("action","MOD: animalmaterials loading ...")
-local version = "0.1.2"
+local version = "0.1.3"
 
 
 animalmaterialsdata = {}
@@ -188,6 +188,13 @@ minetest.register_craftitem("animalmaterials:meat_ostrich", {
 	description = S("Ostrich Meat"),
 	image = "animalmaterials_meat_raw.png",
 	on_use = minetest.item_eat(3),
+	groups = { meat=1, eatable=1 },
+	stack_max=5
+})
+minetest.register_craftitem("animalmaterials:pork_raw", {
+	description = S("Pork"),
+	image = "animalmaterials_pork_raw.png",
+	on_use = minetest.item_eat(4),
 	groups = { meat=1, eatable=1 },
 	stack_max=5
 })
